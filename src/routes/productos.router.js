@@ -10,6 +10,7 @@ const mid1 = (req, res, next)=>{
 }
 
 
+
 router.get('/', mid1,(req, res)=>{
     return res.send({
         dato: req.dato1

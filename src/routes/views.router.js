@@ -10,6 +10,7 @@ const users = [
     { id: '5', name: 'nombre 5', last_name: 'apellido 5', gender: 'M' }   
 ]
 
+
 router.get('/', (req, res)=>{
     let testUser = {
         name: 'Fede',

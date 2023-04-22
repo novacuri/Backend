@@ -10,6 +10,7 @@ productsArray = [
     }
 ]
 
+
 class ProductManager{
     constructor(){
         this.products = productsArray
