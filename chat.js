@@ -41,6 +41,7 @@ socket.on("messageLogs", (arrayServerMessage) => {
 	chatLog.innerHTML = messages;
 });
 
+
 socket.on("newUserConnected", (data) => {
 	if (!user) return;
 	Swal.fire({

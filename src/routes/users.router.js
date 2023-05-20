@@ -12,6 +12,8 @@ userRouter.get('/', (req, res)=>{
 })
 
 
+
+
 userRouter.post('/', (req, res)=>{
     const {name, last_name, email, phone} = req.body
     users.push({ id:Date.now(), name, last_name,email, phone })

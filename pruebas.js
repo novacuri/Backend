@@ -16,6 +16,7 @@ const pruebas = async () => {
 	};
 
 	
+	
 	let pruebaProducto2 = {
 		title: "Prueba 2",
 		description: "Soy un producto de prueba 2",

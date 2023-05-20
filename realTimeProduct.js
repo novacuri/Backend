@@ -15,6 +15,7 @@ socket.on("newProductAdded", (resp) => {
 });
 
 
+
 const getSubmit = document.querySelector("#productForm");
 
 getSubmit.addEventListener("submit", async (event) => {
